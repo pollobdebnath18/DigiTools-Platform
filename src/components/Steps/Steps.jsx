@@ -5,7 +5,7 @@ import Rocket from "../../assets/rocket.png";
 
 const Steps = () => {
   return (
-    <div className="max-w-[1100px] w-full mt-32 mb-20  mx-auto">
+    <div className="max-w-[1100px] w-full mt-80 mb-20  mx-auto">
       <div className="text-center mb-10 space-y-3">
         <h1 className="text-5xl font-extrabold text-[#101727] ">
           Get Started in 3 Steps

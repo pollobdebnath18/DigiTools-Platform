@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners who want a simple and clean resume builder.",
+    "price": "$9",
+    "period": "one-time",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "50+ templates",
+      "Basic customization",
+      "Export to PDF"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2991/2991108.png"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume tools designed to help professionals stand out.",
+    "price": "$19",
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "150+ templates",
+      "ATS optimization",
+      "Unlimited downloads"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/1828/1828884.png"
+  },
+  {
+    "id": 3,
+    "name": "Ultimate Career Pack",
+    "description": "Complete career toolkit with resume and portfolio tools.",
+    "price": "$49",
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "300+ templates",
+      "Portfolio builder",
+      "Priority support"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2583/2583344.png"
+  },
+  {
+    "id": 4,
+    "name": "AI Cover Letter Tool",
+    "description": "Generate personalized cover letters using AI.",
+    "price": "$12",
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "AI-generated letters",
+      "Unlimited edits",
+      "Export to Word"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/4712/4712027.png"
+  },
+  {
+    "id": 5,
+    "name": "Portfolio Builder",
+    "description": "Create stunning online portfolios quickly.",
+    "price": "$29",
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "100+ layouts",
+      "Custom domain",
+      "Mobile responsive"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/906/906334.png"
+  },
+  {
+    "id": 6,
+    "name": "Job Tracker Pro",
+    "description": "Track applications and interviews easily.",
+    "price": "$7",
+    "period": "monthly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Application tracking",
+      "Interview reminders",
+      "Status updates"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/2920/2920349.png"
+  },
+  {
+    "id": 7,
+    "name": "LinkedIn Optimizer",
+    "description": "Improve your LinkedIn profile visibility.",
+    "price": "$15",
+    "period": "monthly",
+    "tag": "Popular",
+    "tagType": "popular",
+    "features": [
+      "Profile analysis",
+      "Keyword suggestions",
+      "Headline generator"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/174/174857.png"
+  },
+  {
+    "id": 8,
+    "name": "Interview Prep Toolkit",
+    "description": "Practice interviews and improve answers.",
+    "price": "$25",
+    "period": "yearly",
+    "tag": "New",
+    "tagType": "new",
+    "features": [
+      "500+ questions",
+      "Mock interviews",
+      "Performance tracking"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
+  },
+  {
+    "id": 9,
+    "name": "Career Growth Bundle",
+    "description": "All-in-one professional growth tools.",
+    "price": "$59",
+    "period": "yearly",
+    "tag": "Best Seller",
+    "tagType": "best-seller",
+    "features": [
+      "Resume builder",
+      "Portfolio hosting",
+      "Career analytics"
+    ],
+    "icon": "https://cdn-icons-png.flaticon.com/512/190/190411.png"
+  }
+]

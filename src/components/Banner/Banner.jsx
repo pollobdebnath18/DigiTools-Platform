@@ -1,5 +1,6 @@
 import { Play } from "lucide-react";
 import React from "react";
+import bannerImg from '../../assets/banner.png'
 
 const Banner = () => {
   return (
@@ -27,7 +28,7 @@ const Banner = () => {
         </div>
       </div>
       <div>
-        <img className="w-[500px] h-[500px]" src="/src/assets/banner.png" alt="banner" />
+        <img className="w-[500px] h-[500px]" src={bannerImg} alt="banner" />
       </div>
     </div>
   );

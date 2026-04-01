@@ -5,14 +5,14 @@ const Pricing = () => {
   return (
     <div className="max-w-[1100px] w-full mt-96 mb-20  mx-auto">
       <div className="text-center mb-10 space-y-3">
-        <h1 className="text-5xl font-extrabold text-[#101727] ">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-[#101727] ">
           Simple, Transparent Pricing
         </h1>
         <p className="text-[16px] text-[#627382]">
           Choose the plan that fits your needs. Upgrade or downgrade anytime.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 ">
+      <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mx-8 md:mx-0 gap-10 ">
         {/* Pricing - 1 */}
         <div className="flex flex-col bg-[#F2F2F2] p-5 space-y-4 rounded-2xl">
           <div className="leading-7">
@@ -50,7 +50,7 @@ const Pricing = () => {
         </div>
         {/* Pricing -2 */}
         <div className="flex flex-col bg-gradient-to-r from-[#9514FA] to-[#4F39F6] p-5 space-y-4 rounded-2xl text-white relative">
-          <span className="bg-[#FEF3C6] text-[#BB4D00] rounded-full px-2 py-1 absolute -top-4.5 right-35">
+          <span className="absolute -top-3 left-1/2 transform -translate-x-1/2 bg-[#FEF3C6] text-[#BB4D00] rounded-full px-3 py-1 text-xs font-semibold">
             Popular
           </span>
           <div className="leading-7">

@@ -6,14 +6,14 @@ const Footer = () => {
   return (
     <>
       <div className="bg-[#101727]  mt-56 grid grid-col-1 md:grid-cols-2 lg:grid-cols-3 pt-20 space-y-20 md:space-y-12 lg:space-y-0 ">
-        <div className="ml-20 text-white">
+        <div className="ml-10 md:ml-20 text-white">
           <h1 className="text-5xl mb-6">DigiTools</h1>
           <p className="text-sm leading-6 opacity-80">
             Premium digital tools for creators, professionals, and businesses.
             Work smarter with our suite of powerful tools.
           </p>
         </div>
-        <div className="grid grid-cols-3 text-white pl-12 md:pl-0 ml-10 ">
+        <div className="grid grid-cols-3 text-white pl-1 md:pl-12 md:pl-0 ml-10 ">
           <div className="leading-9">
             <h3 className="text-xl font-bold">Product</h3>
             <div className="opacity-80">
@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="ml-15 pl-8 md:pl-0">
+        <div className="ml-15  pl-25 md:pl-10 md:pl-0">
           <h3 className="text-xl font-bold mb-5 text-white">Social Links</h3>
           <div className="flex gap-4 items-center">
             <div className="bg-white p-1 rounded-full flex items-center justify-center">
@@ -66,7 +66,7 @@ const Footer = () => {
           <h2 className="text-[16px] text-[#FAFAFA] opacity-50 pb-10 md:pb-0 pl-10 md:pl-0">
             © 2026 Digitools. All rights reserved.
           </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-3 items-center gap-10 pl-15">
             <p className="text-[16px] text-[#FAFAFA] opacity-50">
               Privacy Policy{" "}
             </p>

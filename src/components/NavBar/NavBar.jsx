@@ -68,16 +68,15 @@ const NavBar = ({ carts }) => {
         </div>
         <div className="navbar-end">
           <div className="flex items-center gap-4">
-            <ShoppingCart className="relative"></ShoppingCart>
+            <div className="relative">
+              <ShoppingCart className="text-2xl" />
+              {carts.length >= 1 && (
+                <span className="absolute -top-2 -right-2 sm:-top-2 sm:-right-2 bg-red-700 text-white text-[10px] font-bold px-1.5 py-0.5 rounded-full flex items-center justify-center">
+                  {carts.length}
+                </span>
+              )}
+            </div>
             <p className="mr-3">Login</p>
-            {carts.length >= 1 && (
-              <span
-                className="text-white bg-red-700 px-1 text-[10px]
-        rounded-full absolute top-3 right-65"
-              >
-                {carts.length}
-              </span>
-            )}
           </div>
           <a className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white rounded-full">
             Get Started

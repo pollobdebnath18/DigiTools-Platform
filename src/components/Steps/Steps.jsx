@@ -7,14 +7,14 @@ const Steps = () => {
   return (
     <div className="max-w-[1100px] w-full mt-80 mb-20  mx-auto">
       <div className="text-center mb-10 space-y-3">
-        <h1 className="text-5xl font-extrabold text-[#101727] ">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-[#101727] ">
           Get Started in 3 Steps
         </h1>
-        <p className="text-[16px] text-[#627382]">
+        <p className="text-[14px] md:text-[16px] text-[#627382]">
           Start using premium digital tools in minutes, not hours.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-10">
+      <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 mx-8 md:mx-0 gap-10">
         <div className="bg-white rounded-2xl shadow-2xl px-5 pb-12 text-center space-y-3 py-4 pt-16 relative">
           <img
             className="mx-auto text-[#9514FA] bg-[#cba9e3] rounded-full p-3"

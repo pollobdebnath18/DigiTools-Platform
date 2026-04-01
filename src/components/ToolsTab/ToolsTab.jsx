@@ -5,10 +5,10 @@ const ToolsTab = ({ activeTab, setActiveTab, carts }) => {
   return (
     <div className="max-w-[1100px] w-full mt-80 mb-20  mx-auto">
       <div className="text-center mb-5 space-y-3">
-        <h1 className="text-5xl font-extrabold text-[#101727] ">
+        <h1 className="text-4xl md:text-5xl font-extrabold text-[#101727] ">
           Premium Digital Tools
         </h1>
-        <p className="text-[16px] text-[#627382]">
+        <p className="text-[14px] md:text-[16px] text-[#627382] px-10 md:px-0">
           Choose from our curated collection of premium digital products
           designed <br />
           to boost your productivity and creativity.

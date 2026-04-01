@@ -30,12 +30,3 @@ A modern digital tools platform where creators, professionals, and businesses ca
 
 ---
 
-## Live Demo
-
-[Insert your live site link here]
-
----
-
-## GitHub Repository
-
-[Insert your GitHub repo link here]

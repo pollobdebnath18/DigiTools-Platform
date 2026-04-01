@@ -45,9 +45,15 @@ const Footer = () => {
         <div className="ml-15 pl-8 md:pl-0">
           <h3 className="text-xl font-bold mb-5 text-white">Social Links</h3>
           <div className="flex gap-4 items-center">
-            <FaFacebook className="bg-white "></FaFacebook>
-            <FaInstagram className="bg-white"></FaInstagram>
-            <FaSquareXTwitter className="bg-white " />
+            <div className="bg-white p-1 rounded-full flex items-center justify-center">
+              <FaFacebook className="text-white-600 text-lg" />
+            </div>
+            <div className="bg-white p-1 rounded-full flex items-center justify-center">
+              <FaInstagram className="text-white-600 text-lg"></FaInstagram>
+            </div>
+            <div className="bg-white p-1 rounded-full flex items-center justify-center">
+              <FaSquareXTwitter className="text-white-600 text-lg" />
+            </div>
           </div>
         </div>
       </div>

@@ -1,9 +1,10 @@
 import React from "react";
 
-const ToolsTab = ({activeTab,setActiveTab,carts}) => {
+const ToolsTab = ({ activeTab, setActiveTab, carts }) => {
+  // console.log(activeTab);
   return (
     <div className="max-w-[1100px] w-full mt-80 mb-20  mx-auto">
-      <div className="text-center mb-10 space-y-3">
+      <div className="text-center mb-5 space-y-3">
         <h1 className="text-5xl font-extrabold text-[#101727] ">
           Premium Digital Tools
         </h1>
@@ -19,17 +20,17 @@ const ToolsTab = ({activeTab,setActiveTab,carts}) => {
           <input
             type="radio"
             name="my_tabs_1"
-            className="tab rounded-full w-40 "
+            className={`tab rounded-full w-40 ${activeTab == "Products" ? "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white" : ""}`}
             aria-label="Products"
             defaultChecked
-            onClick={()=>setActiveTab('Products')}
+            onClick={() => setActiveTab("Products")}
           />
           <input
             type="radio"
             name="my_tabs_1"
-            className="tab rounded-full w-40 "
+            className={`tab rounded-full w-40 ${activeTab === "Cart" && "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white"}`}
             aria-label={`Cart (${carts.length})`}
-            onClick={()=>setActiveTab('Cart')}
+            onClick={() => setActiveTab("Cart")}
           />
         </div>
       </div>

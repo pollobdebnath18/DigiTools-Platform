@@ -1,16 +1,41 @@
-# React + Vite
+# DigiTools Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern digital tools platform where creators, professionals, and businesses can browse, purchase, and manage premium digital tools in one place.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Technologies Used
 
-## React Compiler
+- **React.js**  
+- **Tailwind CSS** & **DaisyUI**  
+- **JavaScript (ES6+)**  
+- **React-Toastify**  
+- **JSON (for product data)**  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## Key Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. **Browse & Select Products** – Explore 6–10 premium tools with detailed descriptions, pricing, and tags.  
+2. **Shopping Cart Functionality** – Add products to cart, remove items, and proceed to checkout with dynamic updates.  
+3. **Responsive Design** – Fully responsive UI with smooth toggling between sections and modern styling.  
+
+---
+
+## Optional Features
+
+- Product tags like **New**, **Best Seller**, and **Popular**.  
+- Gradient buttons for “Buy Now” and “Get Started Free”.  
+- Toast notifications for add/remove actions using **React-Toastify**.  
+
+---
+
+## Live Demo
+
+[Insert your live site link here]
+
+---
+
+## GitHub Repository
+
+[Insert your GitHub repo link here]

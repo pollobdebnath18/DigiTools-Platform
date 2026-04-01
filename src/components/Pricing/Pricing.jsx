@@ -49,7 +49,10 @@ const Pricing = () => {
           </div>
         </div>
         {/* Pricing -2 */}
-        <div className="flex flex-col bg-gradient-to-r from-[#9514FA] to-[#4F39F6] p-5 space-y-4 rounded-2xl text-white">
+        <div className="flex flex-col bg-gradient-to-r from-[#9514FA] to-[#4F39F6] p-5 space-y-4 rounded-2xl text-white relative">
+          <span className="bg-[#FEF3C6] text-[#BB4D00] rounded-full px-2 py-1 absolute -top-4.5 right-35">
+            Popular
+          </span>
           <div className="leading-7">
             <h3 className="text-[22px] font-bold">Pro</h3>
             <p className="text-[14px] ">Best for professionals</p>
@@ -81,9 +84,10 @@ const Pricing = () => {
               <Check className="w-[20px] h-[20px]"></Check>Advanced analytics
             </p>
           </div>
+
           <div className="">
             <button className="btn  text-[#4F39F6] bg-white w-full rounded-full">
-             Start Pro Trial
+              Start Pro Trial
             </button>
           </div>
         </div>
@@ -122,7 +126,6 @@ const Pricing = () => {
             </p>
           </div>
           <div className="">
-            
             <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white w-full rounded-full py-5">
               Contact Sales
             </button>

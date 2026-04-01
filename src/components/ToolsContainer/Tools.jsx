@@ -1,12 +1,12 @@
 import React from 'react';
 import DisplayCart from './DisplayCart';
 
-const Tools = ({tools}) => {
-    console.log(tools)
+const Tools = ({tools,carts,setCarts}) => {
+    // console.log(tools)
     return (
         <div className=''>
             {
-                <DisplayCart tools={tools}></DisplayCart>
+                <DisplayCart tools={tools} carts={carts} setCarts={setCarts}></DisplayCart>
             }
         </div>
     );

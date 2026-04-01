@@ -1,8 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import Feature from "./Feature";
+import { toast } from "react-toastify";
 
-const DisplayCart = ({ tools }) => {
-  console.log(tools);
+const DisplayCart = ({ tools, carts, setCarts }) => {
+  const [buy, setBuy] = useState(false);
+  const handleAddedToCart = () => {
+    setBuy(true);
+    const isExist = carts.find((item) => item.id === tools.id);
+    if (isExist) {
+      toast.error("Already Added");
+    } else {
+      setCarts([...carts, tools]);
+      toast.success("Item Added to Cart Successfully", {
+        duration: 500, // 1 second
+      });
+    }
+  };
+  // console.log(tools);
   const { name, description, price, features, icon, period, tag } = tools;
   return (
     <div className=" p-5 rounded-2xl bg-white shadow-xl space-y-4 pt-5 relative">
@@ -20,13 +34,21 @@ const DisplayCart = ({ tools }) => {
         <span className="text-sm text-[#627382]">{period}</span>
       </div>
       <div>
-        {features.map((feature) => (
-          <Feature feature={feature}></Feature>
+        {features.map((feature, index) => (
+          <Feature key={index} feature={feature}></Feature>
         ))}
       </div>
       <div>
-        <button className="btn bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white w-full rounded-full">
-          Buy Now
+        <button
+          onClick={handleAddedToCart}
+          className={`btn w-full rounded-full 
+            ${
+              buy
+                ? "bg-green-600"
+                : "bg-gradient-to-r from-[#4F39F6] to-[#9514FA] text-white"
+            }  `}
+        >
+          {buy ? "Added to Cart" : "Buy Now"}
         </button>
         {/* <p>{tag}</p> */}
       </div>

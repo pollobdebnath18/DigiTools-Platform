@@ -28,7 +28,11 @@ function App() {
       <NavBar carts={carts}></NavBar>
       <Banner></Banner>
       <User></User>
-      <ToolsTab activeTab={activeTab} setActiveTab={setActiveTab} carts={carts}></ToolsTab>
+      <ToolsTab
+        activeTab={activeTab}
+        setActiveTab={setActiveTab}
+        carts={carts}
+      ></ToolsTab>
       {activeTab === "Products" && (
         <ToolsContainer
           carts={carts}
